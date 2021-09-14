@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "../../styles/common.less";
+@import "common.less";
 @bage-size: 12px;
 @bage-small: scale(0.8);
 @bage-height: 20px;
