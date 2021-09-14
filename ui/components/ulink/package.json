@@ -1,12 +1,22 @@
 {
-  "name": "ulink",
+  "name": "@sbux-ui/ulink",
   "version": "1.0.0",
   "description": "uni link",
   "main": "index.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "lanzhao <lanzhao@thoughtworks.com>",
   "license": "ISC",
-  "gitHead": "d39dcec92cc7e39151f50129e2715fd0f7b455d9"
+  "homepage": "https://github.com/zhaolan/lerna-repo#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaolan/lerna-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaolan/lerna-repo/issues"
+  }
 }
