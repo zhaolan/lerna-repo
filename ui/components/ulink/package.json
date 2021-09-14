@@ -1,5 +1,5 @@
 {
-  "name": "@sbux-ui/ulink",
+  "name": "@lanzhao-ui/ulink",
   "version": "1.0.11",
   "description": "uni link",
   "main": "index.vue",
@@ -20,5 +20,5 @@
   "bugs": {
     "url": "https://github.com/zhaolan/lerna-repo/issues"
   },
-  "gitHead": "d627a20df01b853fd9ad724bf3414f113763ce09"
+  "gitHead": "350e251e02982540a6dde8312596a6d923006071"
 }
