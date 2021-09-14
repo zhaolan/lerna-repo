@@ -1,6 +1,6 @@
 {
   "name": "@sbux-ui/ulink",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "uni link",
   "main": "index.vue",
   "scripts": {
