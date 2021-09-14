@@ -1,6 +1,6 @@
 {
   "name": "@lanzhao-ui/ulink",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "uni link",
   "main": "index.vue",
   "scripts": {
