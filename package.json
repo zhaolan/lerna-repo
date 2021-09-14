@@ -21,6 +21,6 @@
     "url": "git+https://github.com/zhaolan/lerna-repo.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@lazhao:registry": "https://npm.pkg.github.com"
   }
 }
