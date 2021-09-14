@@ -7,11 +7,11 @@
       ],
       "message": "chore(release): publish",
       "registry": "https://npm.pkg.github.com"
-    },
-    "packages": [
-      "ui/*",
-      "business/*"
-    ],
-    "version": "independent"
-  }
+    }
+  },
+  "packages": [
+    "ui/components/*",
+    "business/*"
+  ],
+  "version": "0.0.0"
 }
