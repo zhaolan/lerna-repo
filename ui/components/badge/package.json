@@ -14,10 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaolan/lerna-repo.git"
+    "url": "git+https://github.com/zhaolan/lerna-repo.git",
+    "directory": "ui/components/badge"
   },
   "bugs": {
     "url": "https://github.com/zhaolan/lerna-repo/issues"
   },
-  "gitHead": "69d5f4078c2c0ad8c855364f4b3e5e5b19d4a9dd"
+  "gitHead": "5bb65d730f219863f5dcc6a0c7783e0c67fdd6d0"
 }
