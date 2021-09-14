@@ -1,6 +1,6 @@
 {
   "name": "@sbux-ui/ulink",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "uni link",
   "main": "index.vue",
   "scripts": {
@@ -16,7 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/zhaolan/lerna-repo.git",
     "directory": "ui/components/ulink"
-
   },
   "bugs": {
     "url": "https://github.com/zhaolan/lerna-repo/issues"
