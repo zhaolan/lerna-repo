@@ -1,6 +1,6 @@
 {
   "name": "@sbux-ui/badge",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "badge component",
   "main": "index.vue",
   "scripts": {
