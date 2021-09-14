@@ -1,11 +1,11 @@
-# `@sbux-ui/badge`
+# `@lanzhao-ui/badge`
 
 > TODO: description
 
 ## Usage
 
 ```
-const badge = require('@sbux-ui/badge');
+const badge = require('@lanzhao-ui/badge');
 
 // TODO: DEMONSTRATE API
 ```

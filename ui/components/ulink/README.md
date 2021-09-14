@@ -1,11 +1,11 @@
-# `@sbux-ui/ulink`
+# `@lanzhao-ui/ulink`
 
 > TODO: description
 
 ## Usage
 
 ```
-const ulink = require('@sbux-ui/ulink');
+const ulink = require('@lanzhao-ui/ulink');
 
 // TODO: DEMONSTRATE API
 ```
