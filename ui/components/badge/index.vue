@@ -1,6 +1,9 @@
 <template>
+  <view>
   <text v-if="text" :class="inverted ? 'uni-badge--' + type + ' uni-badge--' + size + ' uni-badge--' + type + '-inverted' : 'uni-badge--' + type + ' uni-badge--' + size"
         :style="badgeStyle" class="uni-badge" @click="onClick()">{{ text }}</text>
+    <slot></slot>
+  </view>
 </template>
 
 <script>
@@ -121,7 +124,6 @@ export default {
 }
 
 .uni-badge--success {
-  color: @uni-text-color-inverse;
   background-color: @uni-color-success;
 }
 
