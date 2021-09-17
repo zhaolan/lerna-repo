@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zhaolan/lerna-repo/issues"
   },
-  "gitHead": "cdba271b1a1dcad589e66530ecf75c7d3f992dad"
+  "gitHead": "cdba271b1a1dcad589e66530ecf75c7d3f992dad",
+  "dependencies": {
+    "@lanzhao-ui/style": "^1.0.25"
+  }
 }
