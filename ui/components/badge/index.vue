@@ -70,7 +70,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "../style/index.less";
+@import "~@lanzhao-ui/style";
 @bage-size: 12px;
 @bage-small: scale(0.8);
 @bage-height: 20px;
