@@ -1,6 +1,6 @@
 {
   "name": "@lanzhao-ui/badge",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "badge component",
   "main": "index.vue",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "gitHead": "fc11732c2a64a5d866cde05647ab7e1372afcb13",
   "dependencies": {
-    "@lanzhao-ui/style": "^1.0.18"
+    "@lanzhao-ui/style": "^1.0.21"
   }
 }
