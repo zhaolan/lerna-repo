@@ -10,7 +10,7 @@
     }
   },
   "packages": [
-    "ui/components/*",
+    "ui/*",
     "business/*"
   ],
   "version": "1.0.23"

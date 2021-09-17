@@ -1,5 +1,5 @@
 {
-  "name": "@lanzhao-ui/style",
+  "name": "@lanzhao-business/style",
   "version": "1.0.21",
   "description": "",
   "main": "index.less",
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhaolan/lerna-repo.git",
-    "directory": "ui/components/style"
+    "directory": "business/style"
   },
   "author": "",
   "license": "ISC",

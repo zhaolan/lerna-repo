@@ -1,7 +1,7 @@
 {
-  "name": "@lanzhao-ui/ulink",
-  "version": "1.0.16",
-  "description": "uni link",
+  "name": "@lanzhao-business/badge",
+  "version": "1.0.0",
+  "description": "badge component",
   "main": "index.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhaolan/lerna-repo.git",
-    "directory": "ui/components/ulink"
+    "directory": "business/badge"
   },
   "bugs": {
     "url": "https://github.com/zhaolan/lerna-repo/issues"
-  },
-  "gitHead": "fc11732c2a64a5d866cde05647ab7e1372afcb13"
+  }
 }
