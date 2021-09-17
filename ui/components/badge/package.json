@@ -23,5 +23,8 @@
   "gitHead": "fc11732c2a64a5d866cde05647ab7e1372afcb13",
   "devDependencies": {
     "@lanzhao-ui/style": "^1.0.21"
+  },
+  "dependencies": {
+    "@lanzhao-ui/style": "^1.0.21"
   }
 }
