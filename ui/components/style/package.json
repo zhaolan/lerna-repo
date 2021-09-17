@@ -1,0 +1,23 @@
+{
+  "name": "@lanzhao-ui/style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaolan/lerna-repo.git",
+    "directory": "ui/components/style"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaolan/lerna-repo/issues"
+  },
+  "homepage": "https://github.com/zhaolan/lerna-repo#readme"
+}
