@@ -25,6 +25,7 @@
  * @event {Function} click 点击 Badge 触发事件
  * @example <uni-badge text="1"></uni-badge>
  */
+import '@lanzhao-ui/style'
 export default {
   name: 'UniBadge',
   props: {
@@ -70,7 +71,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "~@lanzhao-ui/style";
 @bage-size: 12px;
 @bage-small: scale(0.8);
 @bage-height: 20px;
