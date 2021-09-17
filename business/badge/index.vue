@@ -1,12 +1,9 @@
 <template>
-  <view>
-  <text v-if="text" :class="inverted ? 'uni-badge--' + type + ' uni-badge--' + size + ' uni-badge--' + type + '-inverted' : 'uni-badge--' + type + ' uni-badge--' + size"
-        :style="badgeStyle" class="uni-badge" @click="onClick()">{{ text }}</text>
-    <slot></slot>
-  </view>
+ <badge :type="type" :inverted="inverted" :size="size" :text="text" />
 </template>
 
 <script>
+import Badge from "@lanzhao-ui/badge"
 /**
  * Badge 数字角标
  * @description 数字角标一般和其它控件（列表、9宫格等）配合使用，用于进行数量提示，默认为实心灰色背景
@@ -27,6 +24,7 @@
  */
 export default {
   name: 'UniBadge',
+  components: {Badge},
   props: {
     type: {
       type: String,
@@ -50,110 +48,9 @@ export default {
       badgeStyle: ''
     };
   },
-  watch: {
-    text() {
-      this.setStyle()
-    }
-  },
-  mounted() {
-    this.setStyle()
-  },
-  methods: {
-    setStyle() {
-      this.badgeStyle = `width: ${String(this.text).length * 8 + 12}px`
-    },
-    onClick() {
-      this.$emit('click');
-    }
-  }
 };
 </script>
 
 <style lang="less" scoped>
-@import "~@lanzhao-ui/style/index";
-@bage-size: 12px;
-@bage-small: scale(0.8);
-@bage-height: 20px;
 
-.uni-badge {
-  /* #ifndef APP-PLUS */
-  display: flex;
-  box-sizing: border-box;
-  overflow: hidden;
-  /* #endif */
-  justify-content: center;
-  flex-direction: row;
-  height: @bage-height;
-  line-height: @bage-height;
-  color: @uni-text-color;
-  border-radius: 100px;
-  background-color: @uni-bg-color-hover;
-  background-color: transparent;
-  text-align: center;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: @bage-size;
-  padding: 0px 6px;
-  /* #ifdef H5 */
-  cursor: pointer;
-  /* #endif */
-}
-
-.uni-badge--inverted {
-  padding: 0 5px 0 0;
-  color: @uni-bg-color-hover;
-}
-
-.uni-badge--default {
-  color: @uni-text-color;
-  background-color: @uni-bg-color-hover;
-}
-
-.uni-badge--default-inverted {
-  color: @uni-text-color-grey;
-  background-color: transparent;
-}
-
-.uni-badge--primary {
-  color: @uni-text-color-inverse;
-  background-color: @uni-color-primary;
-}
-
-.uni-badge--primary-inverted {
-  color: @uni-color-primary;
-  background-color: transparent;
-}
-
-.uni-badge--success {
-  background-color: @uni-color-success;
-}
-
-.uni-badge--success-inverted {
-  color: @uni-color-success;
-  background-color: transparent;
-}
-
-.uni-badge--warning {
-  color: @uni-text-color-inverse;
-  background-color: @uni-color-warning;
-}
-
-.uni-badge--warning-inverted {
-  color: @uni-color-warning;
-  background-color: transparent;
-}
-
-.uni-badge--error {
-  color: @uni-text-color-inverse;
-  background-color: @uni-color-error;
-}
-
-.uni-badge--error-inverted {
-  color: @uni-color-error;
-  background-color: transparent;
-}
-
-.uni-badge--small {
-  transform: @bage-small;
-  transform-origin: center center;
-}
 </style>
