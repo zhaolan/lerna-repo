@@ -1,6 +1,6 @@
 {
   "name": "@lanzhao-ui/badge",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "badge component",
   "main": "index.vue",
   "scripts": {
